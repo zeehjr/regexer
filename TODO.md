@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this document is to track tasks related to Regexer project initial development
+This document tracks the initial tasks for the Regexer project, marking its first steps towards development.
 
 ## Functionalities
 
@@ -17,24 +17,24 @@ The purpose of this document is to track tasks related to Regexer project initia
 - [ ] `[a-z]` Matches by range of characters
 - [x] `{x}` Exact number of times to match
 - [ ] `{x,}` Minimum amount of times to match
-- [ ] `*` Matches previous statement 0 or more times \*\* (need to double check requirement)
+- [ ] `*` Matches previous statement 0 or more times \*\* (Requires clarification)
 - [ ] `+` Matches previous statement 1 or more times
 - [ ] `?` Makes previous statement optional
 
 ### Regexer object
 
 - [ ] Auto-escape reserved characters during the building phase
-- [ ] Allow user to access the RegExp object to use native javascript regex functionalities after built
-- [ ] Provide utility methods for matching and replacing in a easy way after built
+- [ ] Allow user to access the RegExp object to use native javascript regex functionalities after being built
+- [ ] Provide utility methods for matching and replacing in a easy way after being built
 
 ## README
 
 - [ ] Describe functionalities
-- [ ] Describe the goals of this project
+- [ ] Outline the goals of this project
 - [ ] Provide common usage examples
 
 ## CI/CD
 
-- [ ] Use GithubActions
-- [ ] Add workflow to run tests and lint
-- [ ] Publish to NPM via GA workflow
+- [ ] Implement GitHub Actions for CI/CD
+- [ ] Set up a workflow to run tests and lint
+- [ ] Automate publishing to NPM through GitHub Actions
